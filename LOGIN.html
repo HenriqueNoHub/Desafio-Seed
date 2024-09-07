@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>🔥Desafio Onboarding #3🔥</title> 
+
+  <style> 
+
+    h1 
+    {margin-bottom: 22px;}
+    
+     body 
+        {font-family: 'Poppins', sans-serif; 
+        color: #101828; 
+        background-color: #050A24;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;}
+    
+            #titulo 
+            {font-size: 28px; margin-left: 72px; margin-top: 48px;}
+    
+            #subtitulo1 
+            {font-weight: 400; font-size: 16px; margin-left: 72px; color: #344054; }
+    
+            #subtitulo2 
+            {font-weight: 400; font-size: 16px; margin-left: 72px; color: #344054; }
+
+            #spanesqueceu
+            {color: #1570EF; margin-left: 260px; cursor: pointer;}
+
+            #spannaopossuiconta
+            {color: #98A2B3; display: flex; justify-content: center;}
+
+            #cadastre-se
+            {margin-left: 8px;}
+
+    .Botao
+    {background-color: #1570EF;
+     border: none;
+     cursor: pointer;
+     border-radius: 8px;
+     color: #FAFAFA;
+     width:396px;
+     height: 52px;
+     margin-left: 72px;
+     margin-bottom: 24px;
+     font-family: 'Poppins', sans-serif; 
+     font-size: 16px; 
+     font-weight: 600;}
+    
+    .Login
+    {background-color: #FFFFFF;
+      width: 540px;
+      height: 484px;
+      border-radius: 20px;}
+
+    .Box-de-input
+    {display: flex;
+     background-color: transparent;
+     border: 1px solid #D0D5DD;
+     border-radius: 8px;
+     width: 376px; 
+     height: 44px; 
+     margin-left: 72px; 
+     margin-top: 12px;
+     margin-bottom: 24px;
+     align-items: center;
+     padding-left: 16px;
+     font-family: 'Poppins', sans-serif; 
+     font-size: 14px;
+    }
+
+    ::placeholder 
+    {color: #98A2B3; 
+    opacity: 1;
+    font-weight: 400;
+    font-size: 14px;}
+
+    a 
+    {text-decoration: none;
+     color: #1570EF;}
+
+    a:hover 
+    {color: #555;
+     cursor: pointer;
+     text-decoration: underline;}
+
+    @media (max-width: 600px)
+    {
+      h1 
+          {margin-bottom: 12px;}
+
+           body 
+              {font-family: 'Poppins', sans-serif; 
+              color: #101828; 
+              background-color: #050A24;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 100vh;}
+
+                  #titulo 
+                  {font-size: 20px; margin-left: 16px; margin-top: 18px;}
+
+                  #subtitulo1 
+                  {font-weight: 400; font-size: 16px; margin-left: 16px; color: #344054; }
+
+                  #subtitulo2 
+                  {font-weight: 400; font-size: 16px; margin-left: 16px; color: #344054; }
+
+                  #divsenha
+                  {width: 240; 
+                   height: 40;}
+
+                  #spanesqueceu
+                  {color: #1570EF; margin-left: 118px; cursor: pointer;}
+
+                  #spannaopossuiconta
+                 {color: #98A2B3; display: flex; justify-content: center; font-size: 12px;}
+
+                  #cadastre-se
+                  {margin-left: 8px;}
+
+          .Botao
+          {background-color: #1570EF;
+           border: none;
+           cursor: pointer;
+           border-radius: 8px;
+           color: #FAFAFA;
+           width:256px;
+           height: 48px;
+           margin-left: 16px;
+           margin-bottom: 20px;
+           font-family: 'Poppins', sans-serif; 
+           font-size: 16px; 
+           font-weight: 600;}
+
+          .Login
+          {background-color: #FFFFFF;
+            width: 288px;
+            height: 386px;
+            border-radius: 20px;}
+
+          .Box-de-input
+          {display: flex;
+           background-color: transparent;
+           border: 1px solid #D0D5DD;
+           border-radius: 8px;
+           width: 240px; 
+           height: 48px; 
+           margin-left: 16px; 
+           margin-bottom: 32px;
+           margin-top: 6px;
+           padding-left: 16px;
+           align-items: center;
+           font-family: 'Poppins', sans-serif; 
+           font-size: 14px;}
+
+          ::placeholder 
+          {color: #98A2B3; 
+          opacity: 1;
+          font-weight: 400;
+          font-size: 14px;}
+
+          a 
+          {text-decoration: none;
+           color: #1570EF;}
+
+          a:hover 
+          {color: #555;
+           cursor: pointer;
+           text-decoration: underline;}
+
+        </style>
+      </head>
+    }
+
+
+    
+  </style>
+</head>
+
+<body>
+
+  <div class="Login">
+
+     <h1 id="titulo"> Entre na sua conta </h1>
+    
+        <span id="subtitulo1"> Email </span><br>
+
+      <input type="text" id="textInput" class="Box-de-input" placeholder="email@gmail.com">
+
+        <div id="divsenha"><span id="subtitulo2"> Senha </span> <span id="spanesqueceu"><a>Esqueceu?</a></span></div>
+    
+      <input type="text" id="textInput" class="Box-de-input" placeholder="Digite sua senha">
+    
+            <button class="Botao">
+             <span> Entrar agora </span>
+            </button><br>
+
+    <span id="spannaopossuiconta">Não possui uma conta?<span id="cadastre-se"><a href="CADASTRO.html">Cadastre-se</a></span></span>
+
+  </div>
+</body>
+
+
+
+  
+</html>
